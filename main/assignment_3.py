@@ -26,7 +26,7 @@ num_iterations = 10
 t_values, y_values = euler_method(func, t0, y0, t_end, num_iterations)
 
 expected_output = y_values[-1]
-print("Expected output:", expected_output)
+print(expected_output)
 
 
 import numpy as np
@@ -74,5 +74,4 @@ t_values, y_values = runge_kutta_method(func, t0, y0, t_end, num_iterations)
 
 # Print the expected output
 expected_output = y_values[-1]
-print("Expected output:", expected_output)
-
+print( expected_output)
